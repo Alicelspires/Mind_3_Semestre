@@ -1,10 +1,10 @@
-import { NavLink, Link } from 'react-router'
+import { NavLink, Link, useParams } from 'react-router'
 import { useState } from 'react'
 import { HiOutlineUser, HiOutlineSearch } from "react-icons/hi";
 
 export default function NavDesktop(){
     const [isDropdownOpen, setDropdownOpen] = useState(false);
-    const [isLoggedIn, setLoggedIn] = useState(true)
+    const [isLoggedIn, setLoggedIn] = useState(false)
 
     return (
         <>

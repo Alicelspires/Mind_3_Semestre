@@ -15,7 +15,7 @@ export default function NavMobile() {
     { icon: <HiOutlineSearch />, to: "/home" },
     { icon: <HiOutlineNewspaper />, to: "/artigos" },
     { icon: <HiOutlineHome />, to: "/" },
-    { icon: <HiOutlineUser />, to: "/perfil" },
+    { icon: <HiOutlineUser />, to: "/:tipo(paciente|psicologo)/perfil/:id" },
     { icon: <HiOutlineQuestionMarkCircle />, to: "/sobre-nos" },
   ];
 

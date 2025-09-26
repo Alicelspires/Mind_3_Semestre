@@ -4,7 +4,8 @@
   },
   "scripts": {
     "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && ./mvnw spring-boot:run",
+
     "i:frontend" : "cd frontend && npm install"
-    
   }
 }
